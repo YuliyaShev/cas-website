@@ -16,6 +16,12 @@ const fadeUp = {
 export default function Home() {
   return (
     <>
+      <div className="relative z-20 w-full border-b border-amber-200/80 bg-gradient-to-r from-amber-100/90 via-amber-50/95 to-amber-100/90 px-6 py-5 text-center text-lg font-semibold tracking-[0.08em] text-neutral-900 shadow-[0_12px_36px_rgba(0,0,0,0.1)] backdrop-blur md:py-6 md:text-xl">
+        <span className="mr-3 inline-flex items-center rounded-full border border-amber-300/70 bg-white/85 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-amber-900">
+          Notice
+        </span>
+        The website is currently being refined. We appreciate your understanding.
+      </div>
       <section className="relative flex min-h-[80vh] w-full items-center justify-center overflow-hidden px-6 py-32 md:py-40">
       <Image
         src="/hero-city-sunset.webp"
