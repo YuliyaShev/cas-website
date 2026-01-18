@@ -107,7 +107,7 @@ export default function Home() {
         {[
           {
             name: "Starter",
-            price: "$79",
+            price: "$249",
             cadence: "/mo",
             features: [
               "Up to 10 drawing ingests/month",
@@ -119,7 +119,7 @@ export default function Home() {
           },
           {
             name: "Pro",
-            price: "$249",
+            price: "$550",
             cadence: "/mo",
             highlight: true,
             features: [
@@ -132,8 +132,8 @@ export default function Home() {
           },
           {
             name: "Enterprise",
-            price: "Custom",
-            cadence: "",
+            price: "$850",
+            cadence: "/mo",
             features: [
               "Unlimited projects",
               "SSO/SAML and RBAC",
